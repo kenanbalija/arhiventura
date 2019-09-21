@@ -3,9 +3,11 @@
     <b-container>
       <b-row>
         <b-col class="link-box" v-for="(link, index) in links" :key="link.value" :sm="index === 4 ? 12 : 6" :md="index > 2 ? 6 : 4">
-          <article :class="'link-box__container link-'+index" @click="activate(link.path)">
-            <div class="link-box__container__footer">{{ link.name }}</div>
-          </article>
+          <router-link :to="link.path">
+            <article :class="['link-box__container link-'+index , link.value]">
+              <div class="link-box__container__footer">{{ link.name }}</div>
+            </article>
+          </router-link>
         </b-col>
       </b-row>
     </b-container>
@@ -66,10 +68,30 @@ export default {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #45403B;
-        color: #00FFA8;
+        background-color: rgba(69, 64, 59,0.6);
+        color: #fff;
         text-transform: uppercase;
         font-weight: 700;
+      }
+
+      .procjene { 
+        background-image: url('../assets/deal.jpeg');       
+      }
+
+      .vjestacenje {
+        background-image: url('../assets/architecture.jpg');       
+      }
+
+      .etaziranje {
+        background-image: url('../assets/etage.jpg');       
+      }
+
+      .projektovanje {
+        background-image: url('../assets/projecting.jpg');       
+      }
+
+      .kontakt {
+        background-image: url('../assets/contact.jpg');       
       }
     }
   }
