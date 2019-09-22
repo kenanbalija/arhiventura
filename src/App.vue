@@ -3,7 +3,7 @@
     <NavBar />
     <router-view />
     <footer :class="{ absolute: isHome }">
-      Arhinventura  &copy;{{ date }}
+      Arhiventura  &copy;{{ date }}
     </footer>
   </div>
 </template>
@@ -38,7 +38,9 @@
     color: #fff;
     text-align: center;
     width: 100%;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
   }
 
   .absolute {
