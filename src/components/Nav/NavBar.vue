@@ -17,11 +17,14 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav id="socialLinks" class="ml-auto">
-          <b-nav-item href="#">
+          <!-- <b-nav-item href="#">
             <i class="fab fa-facebook-f"></i>
           </b-nav-item>
           <b-nav-item href="#">
             <i class="fab fa-instagram"></i>
+          </b-nav-item> -->
+           <b-nav-item target="_blank" href="https://www.linkedin.com/company/arhinventura">
+             <i class="fab fa-linkedin-in"></i>
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
