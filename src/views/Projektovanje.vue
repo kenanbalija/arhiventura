@@ -28,7 +28,7 @@
 
 <script>
   export default {
-    name: "Projektovanje"
+    name: "Projektovanje",
   }
 </script>
 

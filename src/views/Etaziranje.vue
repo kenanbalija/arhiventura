@@ -36,7 +36,7 @@
 
 <script>
   export default {
-    name: "Etaziranje"
+    name: "Etaziranje",
   }
 </script>
 

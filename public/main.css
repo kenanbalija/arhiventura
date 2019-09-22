@@ -10,4 +10,8 @@
     #socialLinks li {
         margin-right: 20px;
     }
+
+    footer {
+        display: none !important;
+    }
 }

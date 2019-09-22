@@ -63,4 +63,10 @@
       -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
       box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
     }  
+
+    @media(min-width: 992px) {
+      footer {
+        background: red !important;
+      }
+    }
 </style>
