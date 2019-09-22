@@ -87,7 +87,6 @@ export default {
 
       .overlay {
          -webkit-filter: brightness(50%);
-         transition: all 500ms;
       }
 
       .noOverlay {

@@ -1,3 +1,7 @@
+* {
+    transition: all 700ms !important;
+}
+
 @media(max-width:768px) {
     .pagesContainer {
         padding: 0 !important;

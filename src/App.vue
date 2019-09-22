@@ -45,6 +45,6 @@
 
   .absolute {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
   }
 </style>

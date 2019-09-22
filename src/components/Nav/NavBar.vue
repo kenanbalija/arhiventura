@@ -73,4 +73,12 @@
     color: $active;
   }
 
+  .fa-linkedin-in {
+    transition: all 300ms !important;
+  }
+
+  .fa-linkedin-in:hover {
+    color: #fff;
+  }
+
 </style>
