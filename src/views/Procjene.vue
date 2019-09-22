@@ -6,25 +6,34 @@
           <article class="link-box__container">
             <div class="link-box__container__footer">PROCJENE NEKRETNINA</div>
           </article>
+          <div class="content">
+            <span>
+              Procjena tržišne vrijednosti nekretnina je postupak određivanja sadašnje vrijednosti nekretnine,
+              koristeći odgovarajuće pristupe i metodologije, u skladu sa svrhom i predmetom procjene, uvažavajući
+              trenutne lokalne tržišne uslove i druge uticaje (ekonomske, pravne, urbanističke i dr.)
+            </span>  
+            <br>
+            <br>
+            <span class="my-2">
+            Procjena nekretnine se vrši za potrebe pravnih i fizičkih korisnika, a u svrhu:
+              <ul>
+                <li>dobivanja hipotekarnog kredita</li>
+                <li>kupoprodaje nekretnina tj. pomoć formiranja kupoprodajne cijene</li>
+                <li>ostavinske diobe</li>
+                <li>procjene vrijednosti investicionih radova, izrada troškovnika za adaptacije, rekonstrukcije i dr.</li>
+                <li>utvrđivanje vrijednosti zakupa</li>
+                <li>ostale poslovne transakcije</li>
+              </ul>
+            </span>
+            <br>
+            <span>
+              Vršimo procjene nekretnina za potrebe pravnih i fizičkih lica u bankama: Sparkasse Bank, Raiffeisen
+              Bank, Intesa Sanpaolo, Vakufska Banka, Sberbank, Nova Banka, NLB Banka, Addiko Banka, itd.
+            </span>
+          </div>
         </b-col>
       </b-row>
     </b-container>
-    <b-row>
-      <article>
-    Procjena tržišne vrijednosti nekretnina je postupak određivanja sadašnje vrijednosti nekretnine,
-    koristeći odgovarajuće pristupe i metodologije, u skladu sa svrhom i predmetom procjene, uvažavajući
-    trenutne lokalne tržišne uslove i druge uticaje (ekonomske, pravne, urbanističke i dr.)
-    Procjena nekretnine se vrši za potrebe pravnih i fizičkih korisnika, a u svrhu:
-    - dobivanja hipotekarnog kredita
-    - kupoprodaje nekretnina tj. pomoć formiranja kupoprodajne cijene
-    - ostavinske diobe
-    - procjene vrijednosti investicionih radova, izrada troškovnika za adaptacije, rekonstrukcije i dr.
-    - utvrđivanje vrijednosti zakupa
-    - ostale poslovne transakcije
-    Vršimo procjene nekretnina za potrebe pravnih i fizičkih lica u bankama: Sparkasse Bank, Raiffeisen
-    Bank, Intesa Sanpaolo, Vakufska Banka, Sberbank, Nova Banka, NLB Banka, Addiko Banka, itd.
-      </article>
-    </b-row>
   </div>
 </template>
 
@@ -62,4 +71,16 @@
         text-transform: uppercase;
         font-weight: 700;
       }
+
+    .content {
+      padding: 25px 20px;
+      background: rgba(119, 134, 147, 0.6);
+      font-weight: 600;
+      font-size: 17px;
+      color: #fff;
+      text-shadow: 1px 1px 6px #000;
+      -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+    }  
 </style>
