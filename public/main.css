@@ -18,4 +18,8 @@
     footer {
         display: none !important;
     }
+
+    #nav-collapse {
+        padding-left: 0 !important;
+    }
 }
