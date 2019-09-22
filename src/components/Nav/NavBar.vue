@@ -16,7 +16,7 @@
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
-        <b-navbar-nav class="ml-auto">
+        <b-navbar-nav id="socialLinks" class="ml-auto">
           <b-nav-item href="#">
             <i class="fab fa-facebook-f"></i>
           </b-nav-item>
@@ -69,4 +69,5 @@
   a.router-link-exact-active {
     color: $active;
   }
+
 </style>

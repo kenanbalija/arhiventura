@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="container pagesContainer">
     <b-container>
       <b-row>
         <b-col class="link-box">
@@ -80,3 +80,4 @@
         text-align: left;
     }
 </style>
+
