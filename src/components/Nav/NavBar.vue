@@ -2,16 +2,17 @@
   <b-container>
     <b-navbar toggleable="lg" type="dark" variant="faded">
       <b-navbar-brand href="#">
-        <router-link to="/">
-          Arhiventura
+        <router-link id="brand" to="/">
+        <!-- <img id="logo" src="../../assets/logo_final.jpg" alt=""> -->
+          ARHINVENTURA d.o.o.
         </router-link>
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item v-for="link in links" :key="link.path">
-            <router-link :to="link.path">{{ link.name }}</router-link>
+          <b-nav-item class="links" v-for="link in links" :key="link.path">
+            <router-link class="text-uppercase" :to="link.path">{{ link.name }}</router-link>
           </b-nav-item>
         </b-navbar-nav>
 
@@ -79,6 +80,18 @@
 
   .fa-linkedin-in:hover {
     color: #fff;
+  }
+
+  #brand {
+    font-size: 15px;
+  }
+
+  #logo {
+    width: 120px;
+  }
+
+  .links {
+    font-size: 15px;
   }
 
 </style>

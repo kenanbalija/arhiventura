@@ -50,7 +50,7 @@
         cursor: pointer;
         height: 300px;
         position: relative;
-        background-image: url('../assets/etage.jpg');       
+        background-image: url('../assets/architecture.jpg');       
         background-size: cover;
         background-position: center;
       }

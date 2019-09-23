@@ -98,11 +98,11 @@ export default {
       }
 
       .vjestacenje {
-        background-image: url('../assets/architecture.jpg');       
+        background-image: url('../assets/arch-4.jpg');       
       }
 
       .etaziranje {
-        background-image: url('../assets/etage.jpg');       
+        background-image: url('../assets/architecture.jpg');       
       }
 
       .projektovanje {

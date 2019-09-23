@@ -3,7 +3,10 @@
     <NavBar />
     <router-view />
     <footer :class="{ absolute: isHome }">
-      Arhiventura  &copy;{{ date }}
+      ARHINVENTURA d.o.o. 
+      <span class="ml-2">
+        &copy;{{ date }}
+      </span>
     </footer>
   </div>
 </template>

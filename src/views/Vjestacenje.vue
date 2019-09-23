@@ -33,7 +33,7 @@
         cursor: pointer;
         height: 300px;
         position: relative;
-        background-image: url('../assets/architecture.jpg');       
+        background-image: url('../assets/arch-4.jpg');       
         background-size: cover;
         background-position: center;
       }

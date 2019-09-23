@@ -2,7 +2,22 @@
     transition: all 700ms !important;
 }
 
-@media(max-width:768px) {
+@media(max-width: 1201px) {
+    .links {
+        font-size: 14px !important;
+    }
+
+    #nav-collapse {
+        padding-left: 0 !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0 !important;
+    }
+}
+
+
+@media(max-width: 768px) {
     .pagesContainer {
         padding: 0 !important;
     }
@@ -17,9 +32,5 @@
 
     footer {
         display: none !important;
-    }
-
-    #nav-collapse {
-        padding-left: 0 !important;
     }
 }
