@@ -3,7 +3,7 @@
     <NavBar />
     <router-view />
     <footer :class="{ absolute: isHome }">
-      ARHINVENTURA d.o.o. 
+      ARHINVENTURA d.o.o.
       <span class="ml-2">
         &copy;{{ date }}
       </span>

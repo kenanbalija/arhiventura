@@ -3,8 +3,7 @@
     <b-navbar toggleable="lg" type="dark" variant="faded">
       <b-navbar-brand href="#">
         <router-link id="brand" to="/">
-        <!-- <img id="logo" src="../../assets/logo_final.jpg" alt=""> -->
-          ARHINVENTURA d.o.o.
+            <div>ARH<span class="invent">INVENT</span>URA</div>
         </router-link>
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -17,17 +16,13 @@
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
-        <b-navbar-nav id="socialLinks" class="ml-auto">
-          <!-- <b-nav-item href="#">
-            <i class="fab fa-facebook-f"></i>
-          </b-nav-item>
-          <b-nav-item href="#">
-            <i class="fab fa-instagram"></i>
-          </b-nav-item> -->
-           <b-nav-item target="_blank" href="https://www.linkedin.com/company/arhinventura">
-             <i class="fab fa-linkedin-in"></i>
-          </b-nav-item>
-        </b-navbar-nav>
+        <section class="socialParent">
+          <b-navbar-nav id="socialLinks" class="ml-auto">
+            <b-nav-item class="social-link" target="_blank" href="https://www.linkedin.com/company/arhinventura">
+              <i class="fab fa-linkedin-in"></i>
+            </b-nav-item>
+          </b-navbar-nav>
+        </section>
       </b-collapse>
     </b-navbar>
   </b-container>
@@ -84,6 +79,8 @@
 
   #brand {
     font-size: 15px;
+    color: #fff;
+    font-weight: 900;
   }
 
   #logo {
@@ -91,7 +88,17 @@
   }
 
   .links {
+    padding-left: 8px;
     font-size: 15px;
+    border: 1px solid white
+  }
+
+  .invent {
+    color: $active;
+  }
+
+  #socialLinks {
+    padding-left: 0.5rem;
   }
 
 </style>
