@@ -49,7 +49,7 @@ export default {
   .home {
     position: relative;
     margin: 0 auto;
-    min-height: calc(100vh - 56px);
+    /*min-height: calc(100vh - 56px);*/
     display: flex;
     align-items: center;
 
@@ -98,11 +98,11 @@ export default {
       }
 
       .vjestacenje {
-        background-image: url('../assets/arch-4.jpg');       
+        background-image: url('../assets/arch-4.jpg');
       }
 
       .etaziranje {
-        background-image: url('../assets/architecture.jpg');       
+        background-image: url('../assets/architecture.jpg');
       }
 
       .projektovanje {
@@ -110,7 +110,7 @@ export default {
       }
 
       .kontakt {
-        background-image: url('../assets/contact.jpg');       
+        background-image: url('../assets/contact.jpg');
       }
     }
   }

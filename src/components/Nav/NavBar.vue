@@ -63,7 +63,7 @@
   }
 
   #nav-collapse {
-    padding-left: 5rem;
+    /*padding-left: 5rem;*/
   }
   a.router-link-exact-active {
     color: $active;

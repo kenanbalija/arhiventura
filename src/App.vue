@@ -3,6 +3,7 @@
     <NavBar />
     <router-view />
     <footer :class="{ absolute: isHome }">
+<!--      <img id="logo" src="./assets/logo_final.jpg">-->
       ARHINVENTURA d.o.o.
       <span class="ml-2">
         &copy;{{ date }}
@@ -44,10 +45,17 @@
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 0.5px;
+
+    #logo {
+      max-height: 150px;
+      display: block;
+      margin: 0 auto;
+    }
   }
 
   .absolute {
-    position: absolute;
-    bottom: 5px;
+    /*position: absolute;*/
+    /*bottom: 5px;*/
+    padding-bottom: 5px;
   }
 </style>
