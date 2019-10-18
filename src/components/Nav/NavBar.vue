@@ -18,7 +18,7 @@
         <!-- Right aligned nav items -->
         <section class="socialParent">
           <b-navbar-nav id="socialLinks" class="ml-auto">
-            <b-nav-item class="social-link" target="_blank" href="https://www.linkedin.com/company/arhinventura">
+            <b-nav-item class="social-link" target="_blank" href="https://www.linkedin.com/in/jelena-obradovic-balavac-23b9b71a/">
               <i class="fab fa-linkedin-in"></i>
             </b-nav-item>
           </b-navbar-nav>

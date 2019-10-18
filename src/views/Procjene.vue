@@ -11,7 +11,7 @@
               Procjena tržišne vrijednosti nekretnina je postupak određivanja sadašnje vrijednosti nekretnine,
               koristeći odgovarajuće pristupe i metodologije, u skladu sa svrhom i predmetom procjene, uvažavajući
               trenutne lokalne tržišne uslove i druge uticaje (ekonomske, pravne, urbanističke i dr.)
-            </span>  
+            </span>
             <br>
             <br>
             <span class="my-2">
@@ -27,8 +27,7 @@
             </span>
             <br>
             <span>
-              Vršimo procjene nekretnina za potrebe pravnih i fizičkih lica u bankama: Sparkasse Bank, Raiffeisen
-              Bank, Intesa Sanpaolo, Vakufska Banka, Sberbank, Nova Banka, NLB Banka, Addiko Banka, itd.
+              Vršimo procjene nekretnina za potrebe pravnih i fizičkih lica u brojnim bankama.
             </span>
           </div>
         </b-col>
@@ -53,7 +52,7 @@
         cursor: pointer;
         height: 300px;
         position: relative;
-        background-image: url('../assets/deal.jpeg');       
+        background-image: url('../assets/deal.jpeg');
         background-size: cover;
         background-position: center;
       }
@@ -82,5 +81,5 @@
       -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
       box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
-    }  
+    }
 </style>
